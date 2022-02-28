@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/target
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/dictionaries/
+.idea/scopes/
+.idea/sonarlint/
+.idea/qaplug_profiles.xml
+maven/*/target

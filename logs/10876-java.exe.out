@@ -1,0 +1,46 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 993milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 993"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 53320"}
+{"logLevel":"info","message":"Listening on port:53320"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByid' and 'BasePage.clickByid'"}
+{"logLevel":"debug","message":"Found id {} li eleemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.isChecked' and 'BasePage.isChecked'"}
+{"logLevel":"debug","message":"Found idli {}li giris kontrolu {}opened in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.isChecked' and 'BasePage.isChecked'"}
+{"logLevel":"debug","message":"Found Checked app is opened in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickSearchbuttonOnandroidKeyboard' and 'BasePage.clickSearchbuttonOnandroidKeyboard'"}
+{"logLevel":"debug","message":"Found Klavyede arama butonuna bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForseconds' and 'BasePage.waitForseconds'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.sendKeysid' and 'BasePage.sendKeysid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.controlAtlabtn' and 'BasePage.controlAtlabtn'"}
+{"logLevel":"debug","message":"Found Atla butonunu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.selectRondamproduct' and 'BasePage.selectRondamproduct'"}
+{"logLevel":"debug","message":"Found Rasgele bir ürün seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.isOpened' and 'BasePage.isOpened'"}
+{"logLevel":"debug","message":"Found App opened in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tKlavyede arama butonuna bas : public void clickSearchbuttonOnandroidKeyboard()"}
+{"logLevel":"debug","message":"\tidli {}li giris kontrolu {}opened : public void isChecked(String id, String text)"}
+{"logLevel":"debug","message":"\tChecked app is opened : public void isChecked()"}
+{"logLevel":"debug","message":"\tid {} li eleemente tıkla : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForseconds(ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\tApp opened : public void isOpened()"}
+{"logLevel":"debug","message":"\t{} İd'li elemente {} değerini yaz : public void sendKeysid(String id, String text)"}
+{"logLevel":"debug","message":"\tAtla butonunu kontrol et : public void controlAtlabtn() throws InterruptedException"}
+{"logLevel":"debug","message":"\tRasgele bir ürün seç : public void selectRondamproduct()"}
+Şub 27, 2022 7:44:01 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'App opened' using 'class BasePage.isOpened"}
+Ozdilek App started
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForseconds"}
+{"logLevel":"debug","message":"Executing 'idli {}li giris kontrolu {}opened' using 'class BasePage.isChecked"}

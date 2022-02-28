@@ -1,0 +1,46 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 572milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 572"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64649"}
+{"logLevel":"info","message":"Listening on port:64649"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByid' and 'BasePage.clickByid'"}
+{"logLevel":"debug","message":"Found id {} li eleemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickSearchbuttonOnandroidKeyboard' and 'BasePage.clickSearchbuttonOnandroidKeyboard'"}
+{"logLevel":"debug","message":"Found Klavyede arama butonuna bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForseconds' and 'BasePage.waitForseconds'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.sendKeysid' and 'BasePage.sendKeysid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.controlAtlabtn' and 'BasePage.controlAtlabtn'"}
+{"logLevel":"debug","message":"Found Atla butonunu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.selectRondamproduct' and 'BasePage.selectRondamproduct'"}
+{"logLevel":"debug","message":"Found Rasgele bir ürün seç in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tKlavyede arama butonuna bas : public void clickSearchbuttonOnandroidKeyboard()"}
+{"logLevel":"debug","message":"\tid {} li eleemente tıkla : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForseconds(int wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} İd'li elemente {} değerini yaz : public void sendKeysid(String id, String text)"}
+{"logLevel":"debug","message":"\tAtla butonunu kontrol et : public void controlAtlabtn() throws InterruptedException"}
+{"logLevel":"debug","message":"\tRasgele bir ürün seç : public void selectRondamproduct()"}
+Feb 27, 2022 3:16:05 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForseconds"}
+{"logLevel":"debug","message":"Executing 'Atla butonunu kontrol et' using 'class BasePage.controlAtlabtn"}
+Atla butonu görünür oldu
+{"logLevel":"debug","message":"Executing 'id {} li eleemente tıkla' using 'class BasePage.clickByid"}
+com.lcwaikiki.android:id/searchIconeleentine tıklandı
+{"logLevel":"debug","message":"Executing '{} İd'li elemente {} değerini yaz' using 'class BasePage.sendKeysid"}
+com.lcwaikiki.android:id/toolbar_searcheleentini bul ve kazak değerini yaz
+{"logLevel":"debug","message":"Executing 'Klavyede arama butonuna bas' using 'class BasePage.clickSearchbuttonOnandroidKeyboard"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForseconds"}
+{"logLevel":"debug","message":"Executing 'Rasgele bir ürün seç' using 'class BasePage.selectRondamproduct"}
+pd[[[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.lcwaikiki.android.ui.SplashActivity, appPackage=com.lcwaikiki.android, databaseEnabled=false, desired={platformName=android, platform=ANDROID, appActivity=com.lcwaikiki.android.ui.SplashActivity, appPackage=com.lcwaikiki.android, deviceName=emulator-5554}, deviceApiLevel=27, deviceManufacturer=Google, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x2880, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=ANDROID, platformName=Android, platformVersion=8.1.0, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2628}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id = 'com.lcwaikiki.android:id/recyclerProduct']/android.view.ViewGroup], [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.lcwaikiki.android.ui.SplashActivity, appPackage=com.lcwaikiki.android, databaseEnabled=false, desired={platformName=android, platform=ANDROID, appActivity=com.lcwaikiki.android.ui.SplashActivity, appPackage=com.lcwaikiki.android, deviceName=emulator-5554}, deviceApiLevel=27, deviceManufacturer=Google, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x2880, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=ANDROID, platformName=Android, platformVersion=8.1.0, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2628}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id = 'com.lcwaikiki.android:id/recyclerProduct']/android.view.ViewGroup], [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.lcwaikiki.android.ui.SplashActivity, appPackage=com.lcwaikiki.android, databaseEnabled=false, desired={platformName=android, platform=ANDROID, appActivity=com.lcwaikiki.android.ui.SplashActivity, appPackage=com.lcwaikiki.android, deviceName=emulator-5554}, deviceApiLevel=27, deviceManufacturer=Google, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x2880, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=ANDROID, platformName=Android, platformVersion=8.1.0, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2628}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id = 'com.lcwaikiki.android:id/recyclerProduct']/android.view.ViewGroup], [[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.lcwaikiki.android.ui.SplashActivity, appPackage=com.lcwaikiki.android, databaseEnabled=false, desired={platformName=android, platform=ANDROID, appActivity=com.lcwaikiki.android.ui.SplashActivity, appPackage=com.lcwaikiki.android, deviceName=emulator-5554}, deviceApiLevel=27, deviceManufacturer=Google, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x2880, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=ANDROID, platformName=Android, platformVersion=8.1.0, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2628}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id = 'com.lcwaikiki.android:id/recyclerProduct']/android.view.ViewGroup]]
+element[[io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=com.lcwaikiki.android.ui.SplashActivity, appPackage=com.lcwaikiki.android, databaseEnabled=false, desired={platformName=android, platform=ANDROID, appActivity=com.lcwaikiki.android.ui.SplashActivity, appPackage=com.lcwaikiki.android, deviceName=emulator-5554}, deviceApiLevel=27, deviceManufacturer=Google, deviceModel=Android SDK built for x86, deviceName=emulator-5554, deviceScreenDensity=560, deviceScreenSize=1440x2880, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3.5, platform=ANDROID, platformName=Android, platformVersion=8.1.0, statBarHeight=84, takesScreenshot=true, viewportRect={left=0, top=84, width=1440, height=2628}, warnings={}, webStorageEnabled=false}] -> xpath: //*[@resource-id = 'com.lcwaikiki.android:id/recyclerProduct']/android.view.ViewGroup]
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class BasePage.waitForseconds"}

@@ -1,0 +1,68 @@
+Created by batuhanzafer on 27.02.2022
+
+This is a concept file with following syntax for each concept.
+# * App is opened
+* "5" second waited
+
+# App is checked
+* "5" second waited
+* "com.ozdilek.ozdilekteyim:id/iv_marketBg" App is checked
+
+# Start to shopping
+* "2" second waited
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" is clicked
+
+
+# Start to shopping is checked
+* "1" second waited
+* "//android.widget.FrameLayout[@content-desc='Anasayfa']/android.widget.ImageView" Shopping is checked
+
+# Categories are clicked
+* "1" second waited
+* "com.ozdilek.ozdilekteyim:id/nav_categories" Categories are clicked
+
+# Categories are checked
+* "1" second waited
+* "com.ozdilek.ozdilekteyim:id/categoryTab" Categories are checked
+
+# Clicked to Kadın item
+* "//android.widget.TextView[@text='Kadın']" Clicked to Kadın item
+
+# Opened to Pantolon
+* "1" second waited
+* "//android.widget.TextView[@text='Pantolon']" Clicked to Pantolon item
+
+# Scroll twice time to subside on page and wait 2 sec
+* Scroll "2" to subside on page and "1" sec
+
+# Select random product
+* Select random product "//*[@class='android.widget.ImageView']"
+
+# Checked product page detail
+* "2" second waited
+* Checked "com.ozdilek.ozdilekteyim:id/imgSizeAtt" product page detail
+
+# Click to Favorites
+* Click to Favorites "com.ozdilek.ozdilekteyim:id/imgFav"
+
+# Checked to Login Page
+* Checked to Login Page "com.ozdilek.ozdilekteyim:id/btnLogin"
+
+# Write your email
+* Write your email "com.ozdilek.ozdilekteyim:id/etEposta"
+
+# Write your password
+* Write your password "com.ozdilek.ozdilekteyim:id/etPassword"
+
+
+# Click to BackButton
+* Click to BackButton "com.ozdilek.ozdilekteyim:id/ivBack"
+
+# Click to BackButton2
+* Click to BackButton "com.ozdilek.ozdilekteyim:id/ivBack"
+
+# Select random product again
+* Select random product again "//*[@class='android.widget.ImageView']"
+
+# Add to cart
+* Add to cart "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn"

@@ -1,0 +1,67 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1160milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1160"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57995"}
+{"logLevel":"info","message":"Listening on port:57995"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BasePage.shoppingStarted' and 'BasePage.shoppingStarted'"}
+{"logLevel":"debug","message":"Found {} {} is checked in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.checkedProductDetailPage' and 'BasePage.checkedProductDetailPage'"}
+{"logLevel":"debug","message":"Found Checked {} product page detail in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.writeYourEmail' and 'BasePage.writeYourEmail'"}
+{"logLevel":"debug","message":"Found Write your email {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.writeYourPassword' and 'BasePage.writeYourPassword'"}
+{"logLevel":"debug","message":"Found Write your password {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForseconds' and 'BasePage.waitForseconds'"}
+{"logLevel":"debug","message":"Found {} second waited in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.checkedCategories' and 'BasePage.checkedCategories'"}
+{"logLevel":"debug","message":"Found {} is checked in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.isChecked' and 'BasePage.isChecked'"}
+{"logLevel":"debug","message":"Found {} is {} checked in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByid' and 'BasePage.clickByid'"}
+{"logLevel":"debug","message":"Found {} is clicked in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickedPantolonItem' and 'BasePage.clickedPantolonItem'"}
+{"logLevel":"debug","message":"Found {} Clicked to Pantolon item in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickCategories' and 'BasePage.clickCategories'"}
+{"logLevel":"debug","message":"Found {} Categories are clicked in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.scroll' and 'BasePage.scroll'"}
+{"logLevel":"debug","message":"Found Scroll {} to subside on page and {} sec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickKadinItem' and 'BasePage.clickKadinItem'"}
+{"logLevel":"debug","message":"Found {} Clicked to Kadın item in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.checkedLoginPage' and 'BasePage.checkedLoginPage'"}
+{"logLevel":"debug","message":"Found Checked to Login Page {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.favoritesButtonClicked' and 'BasePage.favoritesButtonClicked'"}
+{"logLevel":"debug","message":"Found Click to Favorites {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickBackButton' and 'BasePage.clickBackButton'"}
+{"logLevel":"debug","message":"Found Click to BackButton {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.controlAtlabtn' and 'BasePage.controlAtlabtn'"}
+{"logLevel":"debug","message":"Found Atla butonunu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.selectRondamproduct' and 'BasePage.selectRondamproduct'"}
+{"logLevel":"debug","message":"Found Select random product in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.isOpened' and 'BasePage.isOpened'"}
+{"logLevel":"debug","message":"Found App is opened in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tChecked {} product page detail : public void checkedProductDetailPage(String id)"}
+{"logLevel":"debug","message":"\tClick to Favorites {} : public void favoritesButtonClicked(String id)"}
+{"logLevel":"debug","message":"\t{} Categories are clicked : public void clickCategories(String id)"}
+{"logLevel":"debug","message":"\tChecked to Login Page {} : public void checkedLoginPage(String id)"}
+{"logLevel":"debug","message":"\tWrite your password {} : public void writeYourPassword(String id)"}
+{"logLevel":"debug","message":"\t{} is checked : public void checkedCategories(String id)"}
+{"logLevel":"debug","message":"\t{} second waited : public void waitForseconds(ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} Clicked to Kadın item : public void clickKadinItem(String xpathItem)"}
+{"logLevel":"debug","message":"\t{} {} is checked : public void shoppingStarted(String id, String text)"}
+{"logLevel":"debug","message":"\tScroll {} to subside on page and {} sec : public void scroll(ınt times, ınt wait) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} is {} checked : public void isChecked(String id, String text)"}
+{"logLevel":"debug","message":"\tSelect random product : public void selectRondamproduct()"}
+{"logLevel":"debug","message":"\tClick to BackButton {} : public void clickBackButton(String id)"}
+{"logLevel":"debug","message":"\tAtla butonunu kontrol et : public void controlAtlabtn() throws InterruptedException"}
+{"logLevel":"debug","message":"\tWrite your email {} : public void writeYourEmail(String id)"}
+{"logLevel":"debug","message":"\t{} is clicked : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\tApp is opened : public void isOpened()"}
+{"logLevel":"debug","message":"\t{} Clicked to Pantolon item : public void clickedPantolonItem(String xpathItem)"}
